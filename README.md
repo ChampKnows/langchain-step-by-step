@@ -4,27 +4,27 @@
 1. 這邊使用conda環境進行安裝，因此需要先有conda環境
 
 conda環境創建
- ``` conda create --name lc ``` 
+ /n``` conda create --name lc ``` 
 
 環境建置好之後，進入環境開始安裝需要的套件
- ``` conda activate lc ``` 
+ /n``` conda activate lc ``` 
 
 先安裝jupyter notebook
- ``` pip install notebook ``` 
+/n ``` pip install notebook ``` 
 
 安裝完成之後可以啟動jupyter notebook在jupyter notebook上安裝或是繼續在conda端安裝
 如果要啟動的話打以下指令
- ``` jupyter notebook ``` 
+/n ``` jupyter notebook ``` 
 
 安裝LangChain和相關套件
- ``` pip install langchain
-pip install langchain-community ``` 
+/n ``` pip install langchain ``` 
+/n ``` pip install langchain-community ``` 
 
 安裝OpenAI相關套件
- ``` pip install langchain-openai ``` 
+/n ``` pip install langchain-openai ``` 
 
 安裝Ollama
- ``` curl -fsSL https://ollama.com/install.sh | sh ``` 
+/n ``` curl -fsSL https://ollama.com/install.sh | sh ``` 
 
 
 
